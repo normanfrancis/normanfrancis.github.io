@@ -1,2 +1,60 @@
 ---
 ---
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+	font-size: medium;
+}
+
+.wufoo .info h2, 
+.embed .confirm h2.freeHeading {
+    font-size: 3rem;
+    color: #f07178;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #39bae6;
+}
+
+.wufoo input.text, 
+.wufoo textarea.textarea, 
+.wufoo input.file, 
+.wufoo select.select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+    background: rgba(0,0,0,0.3);
+    color: #c2d6ea;
+    border: none;
+}
+
+#saveForm {
+	cursor: pointer;
+	border-radius: 4px;
+    border: 0;
+    padding: 10px 25px;
+}
+
+#saveForm + a {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.create-message, 
+.start-cta {
+	display: none;
+}
+
+form li.buttons {
+	text-align: center;
+}

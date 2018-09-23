@@ -52,7 +52,7 @@ body {
 
 .create-message, 
 .start-cta {
-	display: none;
+	display: none !important;
 }
 
 form li.buttons {
